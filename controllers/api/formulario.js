@@ -3,7 +3,7 @@ const formularioController = {
         console.log("Recibi algo");
         //res.json({ data: "Hola, aquí estoy" }).status(200).end();
         //console.log("Sali");
-        res.json({ data: "Hola, aquí estoy" });
+        res.status(200).json({ data: "Hola, aquí estoy" });
 	},
 };
 
